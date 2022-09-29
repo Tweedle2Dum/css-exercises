@@ -21,6 +21,8 @@ body {
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
   padding: 1em;
+  display:flex;
+  gap:1rem;
 }
 
 .icon {
@@ -28,12 +30,13 @@ body {
   font-size: 26px;
   font-weight: 700;
   background: lavender;
-  width: 42px;
+  width: 7em;
   height: 42px;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
+  
 }
 
 .close-button {
@@ -47,6 +50,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+
 }
 
 button {
@@ -66,26 +70,38 @@ button.cancel {
   color: royalblue;
 }
 
-/* THE CSS I ADDED*/
-
 .container{
   display: flex;
-  gap: 1em;
+  flex-direction: column;
+  
+}
+
+.content
+{
+  display: flex;
+  flex-direction: column;
+}
+
+.head-x{
+  display: flex;
+
+}
+
+.text{
+  padding-top:0.5rem ;
+}
+
+.close-button{
+  margin-left: auto;
 }
 
 .header{
   font-weight: bold;
   font-size: larger;
-  margin-right: auto;
-}
-
-.text{
-  margin-left: 55px;
 }
 
 .buttons{
   display: flex;
-  gap: 1em;
-  margin-left: 55px;
-  margin-top: 1em;
+  gap: 0.5rem;
+  padding-top: 1rem;
 }
