@@ -20,6 +20,7 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 1em;
 }
 
 .icon {
@@ -63,4 +64,28 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+/* THE CSS I ADDED*/
+
+.container{
+  display: flex;
+  gap: 1em;
+}
+
+.header{
+  font-weight: bold;
+  font-size: larger;
+  margin-right: auto;
+}
+
+.text{
+  margin-left: 55px;
+}
+
+.buttons{
+  display: flex;
+  gap: 1em;
+  margin-left: 55px;
+  margin-top: 1em;
 }
